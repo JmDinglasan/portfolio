@@ -32,9 +32,8 @@ export function Nav() {
             href={`mailto:${site.email}`}
             className="inline-flex items-center gap-2 text-sm text-muted transition-colors hover:text-accent"
           >
-            <MailIcon className="h-4 w-4" />
-            <span className="hidden sm:inline">{site.email}</span>
-            <span className="sm:hidden">Email</span>
+            <MailIcon className="h-4 w-4 shrink-0" />
+            <span className="truncate">{site.email}</span>
           </a>
         </div>
       </nav>
