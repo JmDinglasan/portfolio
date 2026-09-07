@@ -1,5 +1,6 @@
 import { site } from "@/lib/site";
 import { ThemeToggle } from "./ThemeToggle";
+import { MailIcon } from "./Icons";
 
 const links = [
   { href: "#about", label: "About" },
@@ -28,10 +29,12 @@ export function Nav() {
         <div className="ml-auto flex items-center gap-3">
           <ThemeToggle />
           <a
-            href="#contact"
-            className="rounded-full bg-accent px-4 py-2 text-sm font-medium text-accent-contrast transition-colors hover:bg-accent-soft"
+            href={`mailto:${site.email}`}
+            className="inline-flex items-center gap-2 rounded-full bg-accent px-4 py-2 text-sm font-medium text-accent-contrast transition-colors hover:bg-accent-soft"
           >
-            Let&apos;s talk
+            <MailIcon className="h-4 w-4" />
+            <span className="hidden sm:inline">{site.email}</span>
+            <span className="sm:hidden">Email me</span>
           </a>
         </div>
       </nav>
