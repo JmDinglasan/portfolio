@@ -48,9 +48,9 @@ export const site = {
         "Connecting CRMs, forms, databases, communication tools, and other systems that don't natively talk to each other.",
     },
     {
-      title: "Web Development",
+      title: "Funnels & Web Development",
       description:
-        "Fast, modern websites, landing pages, and custom web solutions built with Next.js and React.",
+        "Sales funnels, landing pages, and fast, modern websites built with GoHighLevel, Next.js, and React.",
     },
     {
       title: "AI Solutions",
@@ -122,6 +122,16 @@ export const site = {
       outcome:
         "Hours of manual work removed every week, with nothing slipping through the cracks.",
       technologies: ["n8n", "GoHighLevel", "Google Workspace", "REST APIs", "Webhooks"],
+    },
+    {
+      title: "Funnels & Landing Pages",
+      problem:
+        "Visitors land on your page, don't see a clear next step, and leave without ever becoming leads.",
+      build:
+        "High-converting funnels and landing pages — from the page and form to the follow-up automation behind it — built to capture, qualify, and nurture leads.",
+      outcome:
+        "A clear path from first click to booked call or sale, with every lead captured and followed up automatically.",
+      technologies: ["GoHighLevel", "Next.js", "React", "Webhooks", "n8n"],
     },
     {
       title: "AI-Powered Integrations",
