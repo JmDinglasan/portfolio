@@ -42,18 +42,12 @@ export function Hero() {
                 <ArrowIcon className="h-4 w-4" />
               </a>
               <a
-                href="#contact"
-                className="inline-flex h-12 items-center justify-center rounded-full border border-line-strong px-6 font-medium text-foreground transition-colors hover:bg-surface"
-              >
-                Let&apos;s Work Together
-              </a>
-              <a
                 href={site.resumeUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex h-12 items-center justify-center rounded-full border border-line-strong px-6 font-medium text-foreground transition-colors hover:bg-surface"
               >
-                View Résumé
+                View Resume
               </a>
             </div>
           </div>
