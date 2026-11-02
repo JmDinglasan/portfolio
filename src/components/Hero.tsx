@@ -47,6 +47,14 @@ export function Hero() {
               >
                 Let&apos;s Work Together
               </a>
+              <a
+                href={site.resumeUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex h-12 items-center justify-center rounded-full border border-line-strong px-6 font-medium text-foreground transition-colors hover:bg-surface"
+              >
+                View Résumé
+              </a>
             </div>
           </div>
 

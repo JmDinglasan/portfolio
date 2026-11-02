@@ -13,6 +13,8 @@ export const site = {
 
   // --- Contact links --------------------------------------------------------
   email: "jm.dinglasan11@gmail.com",
+  resumeUrl:
+    "https://drive.google.com/file/d/1jZh-13BCOcL66Rs9KTFYZ6lpSzA_OAhB/view?usp=sharing",
   socials: {
     github: "https://github.com/JmDinglasan",
     linkedin: "https://www.linkedin.com/in/jm-dinglasan/",
